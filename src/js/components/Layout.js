@@ -1,5 +1,4 @@
 import React from "react";
-// import {Router, Route, browserHistory, indexRoute} from "react-router";
 
 import {About} from './About';
 import {Footer} from './Footer';
