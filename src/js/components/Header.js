@@ -13,7 +13,7 @@ export class Title extends React.Component {
             <Link to="/about">About</Link>
             </li>
             <li className="nav_josh">
-            <a href="">Contact</a>
+            <Link to="/contact">Contact</Link>
             </li>
         </ul>
 
