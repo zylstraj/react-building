@@ -4,16 +4,17 @@ import {Router, Route, browserHistory, IndexRoute} from "react-router";
 
 import {About} from './components/About'
 import {Layout} from './components/Layout'
+import {Portfolio} from './components/Portfolio'
 const app = document.getElementById('app');
 
-
-// <Router history="browserHistory">
-//   <Route path="/" component={Layout}>
-//   <IndexRoute component={Layout}></IndexRoute>
-//   <Route path="about" component={About}></Route>
-//   </Route>
-//   </Router>
-
-ReactDOM.render(<Layout />,
+ReactDOM.render((
+  <Router history={browserHistory}>
+  <Route path="/" component={Layout}>
+  <IndexRoute component={Layout} />
+  <Route path="portfolio" component={Portfolio} />
+  <Route path="about" component={About} />
+  </Route>
+  </Router>
+  ),
   app);
 
