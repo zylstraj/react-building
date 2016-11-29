@@ -1,4 +1,5 @@
 import React from "react";
+import { Router, Route, Link } from 'react-router'
 
 export class Title extends React.Component {
   render(){
@@ -6,15 +7,16 @@ export class Title extends React.Component {
       <div className="menu">
         <ul>
             <li className="nav_josh">
-            <a href="">Portfolio</a>
+            <Link to="/portfolio">Portfolio</Link>
             </li>
             <li className="nav_josh">
-            <a href="">About</a>
+            <Link to="/about">About</Link>
             </li>
             <li className="nav_josh">
             <a href="">Contact</a>
             </li>
         </ul>
+
     </div>
       );
   }

@@ -13,8 +13,7 @@ export class Layout extends React.Component {
     return(
       <div>
       <Title />
-      <About />
-      <Portfolio />
+      {this.props.children}
       <Footer />
         </div>
       );
