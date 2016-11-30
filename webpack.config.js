@@ -19,9 +19,12 @@ module.exports = {
     },
     {
       test: /\.css$/,
-      loader: 'style-loader!css-loader'
-    }
-    ]
+      loaders:[
+          'style-loader',
+          'css-loader?modules&importLoaders=1&localIdentName=[name]_[local]_[hash:base64:5]'
+          ],
+    },
+    ],
   },
   devServer: {
     stats: 'errors-only'

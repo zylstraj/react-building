@@ -1,3 +1,18 @@
 .contact {
   background-color: blue;
 }
+.contact_icon {
+  display: inline-block;
+  text-decoration: none;
+  margin: 2em;
+}
+.contact_list {
+  text-align: center;
+}
+.contact_icon a {
+  text-decoration: none;
+  color: black;
+}
+.contact_icon a:hover {
+  color: blue;
+}
