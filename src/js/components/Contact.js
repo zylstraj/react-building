@@ -1,4 +1,5 @@
 import React from "react"
+require('../../css/contact.css')
 
 export class Contact extends React.Component{
   render(){
