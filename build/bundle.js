@@ -27497,10 +27497,10 @@
 	                ),
 	                _react2.default.createElement(
 	                    'ul',
-	                    { className: 'contact_list' },
+	                    { className: _contact2.default.contact_list },
 	                    _react2.default.createElement(
 	                        'li',
-	                        { className: 'contact_icon' },
+	                        { className: _contact2.default.contact_icon },
 	                        _react2.default.createElement(
 	                            'a',
 	                            { href: 'mailto:zylstrajosh@gmail.com' },
@@ -27513,7 +27513,7 @@
 	                    ),
 	                    _react2.default.createElement(
 	                        'li',
-	                        { className: 'contact_icon' },
+	                        { className: _contact2.default.contact_icon },
 	                        _react2.default.createElement(
 	                            'a',
 	                            { href: 'https://twitter.com/theworldsmyhome' },
@@ -27523,7 +27523,7 @@
 	                    ),
 	                    _react2.default.createElement(
 	                        'li',
-	                        { className: 'contact_icon' },
+	                        { className: _contact2.default.contact_icon },
 	                        _react2.default.createElement(
 	                            'a',
 	                            { href: 'https://linkedin.com/in/zylstraj' },
@@ -27533,7 +27533,7 @@
 	                    ),
 	                    _react2.default.createElement(
 	                        'li',
-	                        { className: 'contact_icon' },
+	                        { className: _contact2.default.contact_icon },
 	                        _react2.default.createElement(
 	                            'a',
 	                            { href: 'https://github.com/zylstraj' },
@@ -27593,11 +27593,13 @@
 	
 	
 	// module
-	exports.push([module.id, ".contact_contact_3ZCOe {\n  background-color: blue;\n}\n", ""]);
+	exports.push([module.id, ".contact_contact_3ZCOe {\n  background-color: blue;\n}\n.contact_contact_icon_56f6p {\n  display: inline-block;\n  text-decoration: none;\n  margin: 2em;\n}\n.contact_contact_list_YUMFt {\n  text-align: center;\n}\n.contact_contact_icon_56f6p a {\n  text-decoration: none;\n  color: black;\n}\n.contact_contact_icon_56f6p a:hover {\n  color: blue;\n}\n", ""]);
 	
 	// exports
 	exports.locals = {
-		"contact": "contact_contact_3ZCOe"
+		"contact": "contact_contact_3ZCOe",
+		"contact_icon": "contact_contact_icon_56f6p",
+		"contact_list": "contact_contact_list_YUMFt"
 	};
 
 /***/ },
