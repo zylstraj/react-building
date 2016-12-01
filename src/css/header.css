@@ -1,0 +1,19 @@
+.nav_josh a {
+  font-size: 2em;
+  font-family: 'Exo', 'Infinity', sans-serif;
+  color: #00A79D;
+  margin-top: 1em;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  font-weight: 100;
+  text-decoration: none;
+}
+.nav_josh a {
+  color: #00A79D;
+}
+.nav_josh a:visited {
+  color: #00A79D;
+}
+.nav_josh a:hover {
+  color: yellow;
+}

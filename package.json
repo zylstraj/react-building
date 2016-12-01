@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run build",
-    "build": "webpack -d && webpack-dev-server --content-base src/ --inline --hot --history-api-fallback --port 2016"
+    "build": "webpack -d && webpack-dev-server --content-base src/ --inline --hot --history-api-fallback --port 2016",
+    "deploy": "surge -p build -d reactbuildingyes.surge.sh"
   },
   "author": "JZ",
   "license": "ISC",
