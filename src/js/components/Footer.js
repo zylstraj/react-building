@@ -3,7 +3,7 @@ import React from "react";
 export class Footer extends React.Component {
   render(){
     return(
-      <footer>I Am Josh Logo</footer>
+      <footer><img src="./IamJoshFooter.png" alt="Josh logo"/></footer>
     );
   }
 }

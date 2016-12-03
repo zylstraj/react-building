@@ -8,7 +8,7 @@ export class Contact extends React.Component{
     return(
       <section>
         <h1 className={styles.contact}>Get At Me</h1>
-        <p className="contact_josh">zylstrajosh@gmail.com</p>
+        <p className={styles.contact_josh}>zylstrajosh@gmail.com</p>
         <ul className={styles.contact_list}>
             <li className={styles.contact_icon}><a href="mailto:zylstrajosh@gmail.com"><span className="icon-envelope-o">Email</span></a></li>
             <li className={styles.contact_icon}><a href="https://twitter.com/theworldsmyhome"><span className="icon-twitter-square"></span>Twitter</a></li>

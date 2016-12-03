@@ -1,10 +1,25 @@
-.contact {
-  background-color: blue;
+.contact, .contact_josh {
+  clear: both;
+  font-size: 3em;
+  font-family: 'Exo', 'Infinity', sans-serif;
+  font-weight: 100;
+  letter-spacing: .05em;
+  text-align: center;
+  text-transform: uppercase;
 }
 .contact_icon {
   display: inline-block;
-  text-decoration: none;
-  margin: 2em;
+  width: 22%;
+}
+.contact_icon {
+  font-size: 1.75em;
+  font-family: 'Exo', 'Infinity', sans-serif;
+  font-weight: 100;
+  color: #00A79D;
+  letter-spacing: .05em;
+  text-align: center;
+  text-transform: uppercase;
+
 }
 .contact_list {
   text-align: center;
@@ -14,5 +29,5 @@
   color: black;
 }
 .contact_icon a:hover {
-  color: blue;
+  color: #00A79D;
 }
