@@ -15,3 +15,20 @@
   letter-spacing: .05em;
   text-align: center;
 }
+.portfolio_h1 {
+  font-size: 4em;
+  text-align: center;
+  color: #0B2C39;
+  text-transform: uppercase;
+  font-family: 'Economica', sans-serif;
+}
+.portfolio_h1:hover {
+  opacity: .25;
+  color: green;
+}
+.portfolio_h1 a {
+  text-decoration: none;
+}
+.portfolio_h1 a:visited {
+  color: #0B2C39;
+}

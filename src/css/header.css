@@ -1,7 +1,7 @@
 .nav_josh a {
   font-size: 2em;
   font-family: 'Exo', 'Infinity', sans-serif;
-  color: #00A79D;
+  color: 'black';
   margin-top: 1em;
   letter-spacing: .05em;
   text-transform: uppercase;
@@ -9,15 +9,18 @@
   text-decoration: none;
 }
 .nav_josh a {
-  color: #00A79D;
+  color: 'black';
 }
 .nav_josh a:visited {
+  color: 'black';
+}
+/*.nav_josh a:hover {
   color: #00A79D;
-}
-.nav_josh a:hover {
-  color: yellow;
-}
+}*/
 .nav_josh {
   display: inline-block;
   padding: 3em 3em;
+}
+.header_baby {
+  text-align: center;
 }
