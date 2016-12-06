@@ -7,6 +7,7 @@ export class Title extends React.Component {
   render(){
     return(
       <div className="menu">
+      <nav className={styles.header_baby}>
         <ul>
             <li className={styles.nav_josh}>
             <Link to="/portfolio">Portfolio</Link>
@@ -18,6 +19,7 @@ export class Title extends React.Component {
             <Link to="/contact">Contact</Link>
             </li>
         </ul>
+        </nav>
 
     </div>
       );
