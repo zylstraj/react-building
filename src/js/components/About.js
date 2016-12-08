@@ -6,7 +6,8 @@ export class About extends React.Component{
     return(
       <div className={styles.todayfix}>
         <section className={styles.about_josh}>
-            <p className={styles.about_paragraph}> Seattle is my home. The Chicago Cubs will always be my first love. And Donald Glover.</p>
+            <img src="../../LinkedIn.jpg" alt="Photo of Josh" className={styles.joshPhoto} />
+            <p className={styles.about_paragraph}> I am a Front End Web Developer in the Seattle area. I graduated from the University of Michigan.</p>
         </section>
     </div>
       );

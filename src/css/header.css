@@ -14,6 +14,14 @@
 .nav_josh a:visited {
   color: 'black';
 }
+.header_baby {
+  text-align: right;
+  margin-right: 5%;
+}
+.nav_josh {
+  list-style-type: none;
+}
+@media screen and (min-width: 750px) {
 /*.nav_josh a:hover {
   color: #00A79D;
 }*/
@@ -23,4 +31,5 @@
 }
 .header_baby {
   text-align: center;
+}
 }
