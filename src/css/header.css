@@ -17,9 +17,18 @@
 .header_baby {
   text-align: right;
   margin-right: 5%;
+  margin-top: 10%;
+  width: 45%;
+  float: right;
 }
 .nav_josh {
   list-style-type: none;
+}
+.joshLogo {
+  width: 150px;
+  height: 150px;
+  padding: 10% 0 10% 5%;
+  float: left;
 }
 @media screen and (min-width: 750px) {
 /*.nav_josh a:hover {
@@ -27,9 +36,14 @@
 }*/
 .nav_josh {
   display: inline-block;
-  padding: 3em 3em;
+  padding: 0 1em;
+  margin-top: 1.5em;
 }
 .header_baby {
-  text-align: center;
+  text-align: right;
+  width: 70%;
+}
+.joshLogo {
+  padding: 5%;
 }
 }
