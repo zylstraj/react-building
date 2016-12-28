@@ -1,22 +1,36 @@
-.about_josh {
+.todayfix {
   clear: both;
-  text-align: center;
-  /*background-color: #D0D0D0;
-  border: 2px solid yellow;*/
 }
-/*.joshphoto {
-  position: absolute;
-  margin-top: -7em;
-  margin-left: 1em;
-  text-align: center;
-}*/
+.joshPhoto {
+    height: 80%;
+    width: 95%;
+    text-align: center;
+    margin-left: 2%;
+  }
 .about_paragraph {
   font-size: 1.5em;
   font-family: 'Exo', 'Infinity', sans-serif;
   font-weight: 100;
-  color: #00A79D;
+  color: black;
   letter-spacing: .05em;
   text-align: center;
+}
+@media screen and (min-width: 750px) {
+.about_josh {
+  text-align: center;
+  /*background-color: #D0D0D0;
+  border: 2px solid yellow;*/
+}
+.joshPhoto {
+  height: 32.5%;
+  width: 48%;
+  float: left;
+}
+
+.about_paragraph {
   margin: 0 1em;
-  padding-bottom: 1em;
+  padding: 3em 0 0 0;
+  width: 40%;
+  float: right;
+}
 }

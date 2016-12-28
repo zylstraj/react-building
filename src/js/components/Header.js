@@ -6,7 +6,9 @@ import styles from '../../css/header.css'
 export class Title extends React.Component {
   render(){
     return(
-      <div className="menu">
+      <div className={styles.menu}>
+      {/*<img src="./IAmJosh.png" alt="Josh logo" className={styles.joshLogo}/>*/}
+      <h1 className={styles.mainMenu}>I Am Josh</h1>
       <nav className={styles.header_baby}>
         <ul>
             <li className={styles.nav_josh}>

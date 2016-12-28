@@ -8,6 +8,7 @@ export class Portfolio extends React.Component {
       <section className={styles.portfolio_work}>
         {/* <p className={styles.portfolio}>Currently Finishing Up A Few Projects</p>*/}
          <h1 className={styles.portfolio_h1}><a href="http://no-water.surge.sh">No Water.<br></br>You Die.</a></h1>
+       {/* // <p>Raise awareness about the lack of world through the world</p>*/}
       </section>
   )
   }
