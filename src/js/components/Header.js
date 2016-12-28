@@ -7,7 +7,8 @@ export class Title extends React.Component {
   render(){
     return(
       <div className={styles.menu}>
-      <img src="./IamJosh.png" alt="Josh logo" className={styles.joshLogo}/>
+      {/*<img src="./IAmJosh.png" alt="Josh logo" className={styles.joshLogo}/>*/}
+      <h1 className={styles.mainMenu}>I Am Josh</h1>
       <nav className={styles.header_baby}>
         <ul>
             <li className={styles.nav_josh}>

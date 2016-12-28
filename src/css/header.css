@@ -30,13 +30,22 @@
   padding: 10% 0 10% 5%;
   float: left;
 }
+.mainMenu {
+  font-family: "Infinity";
+  text-transform: uppercase;
+  width: 35%;
+  float: left;
+  margin: 1em 0 0 5%;
+  font-size: 3em;
+  font-weight: 200;
+}
 @media screen and (min-width: 750px) {
 /*.nav_josh a:hover {
   color: #00A79D;
 }*/
 .nav_josh {
   display: inline-block;
-  padding: 0 1em;
+  padding: 0 5%;
   margin-top: 1.5em;
 }
 .header_baby {
@@ -45,5 +54,8 @@
 }
 .joshLogo {
   padding: 5%;
+}
+.mainMenu {
+  width: 20%;
 }
 }
