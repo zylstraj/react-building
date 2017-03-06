@@ -1,7 +1,7 @@
 import React from "react";
 import { Router, Route, Link } from 'react-router'
 
-import styles from '../../css/header.css'
+import styles from './header.css'
 
 export class Title extends React.Component {
   render(){

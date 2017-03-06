@@ -2,10 +2,10 @@ import React from "react"
 import ReactDOM from "react-dom";
 import {Router, Route, browserHistory, IndexRoute} from "react-router";
 
-import {About} from './components/About'
-import {Layout} from './components/Layout'
-import {Portfolio} from './components/Portfolio'
-import {Contact} from './components/Contact'
+import {About} from './components/About/About'
+import {Layout} from './components/Layout/Layout'
+import {Portfolio} from './components/Portfolio/Portfolio'
+import {Contact} from './components/Contact/Contact'
 const app = document.getElementById('app');
 
 ReactDOM.render((
@@ -18,4 +18,3 @@ ReactDOM.render((
   </Router>
   ),
   app);
-

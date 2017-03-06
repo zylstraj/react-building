@@ -1,5 +1,5 @@
 import React from "react";
-import styles from '../../css/about.css'
+import styles from './about.css'
 
 export class About extends React.Component{
   render(){
@@ -13,4 +13,3 @@ export class About extends React.Component{
       );
   }
 }
-

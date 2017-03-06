@@ -1,6 +1,8 @@
 /node_modules
 /dist
 /build
+bundle.js
+bundle.js.map
 
 # Logs
 logs

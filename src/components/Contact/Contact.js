@@ -1,5 +1,5 @@
 import React from "react"
-import styles from '../../css/contact.css'
+import styles from './contact.css'
 
 console.log('Contact styles:', styles);
 

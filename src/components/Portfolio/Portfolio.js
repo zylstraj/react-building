@@ -1,5 +1,5 @@
 import React from "react";
-import styles from '../../css/portfolio.css'
+import styles from './portfolio.css'
 import Link from "react-dom"
 
 export class Portfolio extends React.Component {
