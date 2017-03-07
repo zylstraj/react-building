@@ -9,7 +9,7 @@
 }
 .portfolio {
   font-size: 2.25em;
-  font-family: 'Economica', 'Exo', 'Infinity', sans-serif;
+  font-family: 'Shadows Into Light', 'Economica', 'Exo', 'Infinity', sans-serif;
   font-weight: 100;
   color: #00A79D;
   letter-spacing: .05em;
@@ -20,7 +20,7 @@
   text-align: center;
   color: #0B2C39;
   text-transform: uppercase;
-  font-family: 'Economica', sans-serif;
+  font-family: 'Shadows Into Light', 'Economica', sans-serif;
 }
 .portfolio_h1:hover {
   opacity: .25;

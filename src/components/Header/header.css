@@ -1,6 +1,6 @@
 .nav_josh a {
   font-size: 2em;
-  font-family: 'Economica', 'Exo', 'Infinity', sans-serif;
+  font-family: 'Shadows Into Light', 'Economica', 'Exo', 'Infinity', sans-serif;
   color: 'black';
   margin-top: 1em;
   letter-spacing: .05em;
@@ -22,17 +22,16 @@
 .nav_josh {
   list-style-type: none;
 }
-.joshLogo {
+/*.joshLogo {
   width: 150px;
   height: 150px;
   padding: 10% 0 10% 5%;
   float: left;
-}
+}*/
 .mainMenu {
-  font-family: "Economica", "Infinity";
+  font-family: 'Shadows Into Light', "Economica", "Infinity";
   text-transform: uppercase;
-  width: 35%;
-  float: left;
+  width: 100%;
   margin: 1em 0 0 5%;
   font-size: 3em;
   font-weight: 200;
@@ -47,13 +46,15 @@
   margin-top: 1.5em;
 }
 .header_baby {
-  text-align: right;
-  width: 70%;
+  text-align: center;
+  width: 100%;
 }
 .joshLogo {
   padding: 5%;
 }
 .mainMenu {
-  width: 20%;
+  width: 100%;
+  text-align: center;
+  font-size: 5em;
 }
 }
