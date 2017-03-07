@@ -3,7 +3,7 @@ import { Router, Route, Link } from 'react-router'
 
 import styles from './header.css'
 
-export class Title extends React.Component {
+export class Header extends React.Component {
   render(){
     return(
       <div className={styles.menu}>
@@ -17,7 +17,7 @@ export class Title extends React.Component {
             <li className={styles.nav_josh}>
             <Link to="/about">About/Contact</Link>
             </li>
-            
+
         </ul>
         </nav>
 

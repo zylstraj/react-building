@@ -2,7 +2,7 @@ import React from "react";
 
 import {About} from '../About/About';
 import {Footer} from '../Footer/Footer';
-import {Title} from '../Header/Header';
+import {Header} from '../Header/Header';
 import {Portfolio} from '../Portfolio/Portfolio';
 import {Contact} from '../Contact/Contact';
 
@@ -13,7 +13,7 @@ export class Layout extends React.Component {
   render(){
     return(
       <div>
-      <Title />
+      <Header />
       {this.props.children}
       <Footer />
         </div>
