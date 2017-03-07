@@ -1,6 +1,6 @@
 .nav_josh a {
   font-size: 2em;
-  font-family: 'Exo', 'Infinity', sans-serif;
+  font-family: 'Economica', 'Exo', 'Infinity', sans-serif;
   color: 'black';
   margin-top: 1em;
   letter-spacing: .05em;
@@ -31,7 +31,7 @@
   float: left;
 }
 .mainMenu {
-  font-family: "Infinity";
+  font-family: "Economica", "Infinity";
   text-transform: uppercase;
   width: 35%;
   float: left;

@@ -15,11 +15,9 @@ export class Title extends React.Component {
             <Link to="/portfolio">Portfolio</Link>
             </li>
             <li className={styles.nav_josh}>
-            <Link to="/about">About</Link>
+            <Link to="/about">About/Contact</Link>
             </li>
-            <li className={styles.nav_josh}>
-            <Link to="/contact">Contact</Link>
-            </li>
+            
         </ul>
         </nav>
 
