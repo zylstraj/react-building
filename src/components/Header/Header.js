@@ -19,7 +19,6 @@ export class Header extends React.Component {
 
         </ul>
         </nav>
-        <h1 className={styles.mainMenu}>I Am Josh</h1>
     </div>
       );
   }
