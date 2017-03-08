@@ -1,6 +1,8 @@
 .footerJosh {
   clear: both;
   text-align: center;
+  font-family: 'Shadows Into Light', 'Economica', 'Exo', 'Infinity', sans-serif;
+  font-size: 3em;
 }
 .footerJosh img {
   padding: 2em;
